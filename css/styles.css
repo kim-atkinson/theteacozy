@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.nav-list {
+    display: inline-flex;
+}
+.logo {
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 50px;
+}
+
+a {
+    color: seashell;
+}
+
+.list {
+    list-style: none;
+    padding-right: 20px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tea-closeup {
+    background-image: url("../images/img-mission-background.jpg");
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+
+.mission-background {
+    background-color: black;
+    width: 100%;
+}
+
+.tea-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tea-item {
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.locations-background {
+    background-image: url("../images/img-locations-background.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.location-items {
+    display: flex;
+justify-content: center;
+}
+.location-card {
+    background-color: black;
+    width: 300px;
+    opacity: 0.9;
+}
