@@ -115,3 +115,11 @@ a {
 .padding {
     padding: 60px 0;
 }
+
+/* Footer */
+
+.bottom-footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
