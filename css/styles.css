@@ -28,8 +28,8 @@ nav {
     display: inline-flex;
 }
 .logo {
-    padding-top: 0px;
-    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
     height: 50px;
 }
 
@@ -37,6 +37,13 @@ a {
     color: seashell;
 }
 
+a:hover {
+    opacity: .5;
+}
+
+.no-underline {
+    text-decoration: none;
+}
 .list {
     list-style: none;
     padding-right: 20px;
@@ -88,6 +95,7 @@ a {
 
 #locations-heading {
     margin: 0px 0px 15px 0px;
+    opacity: .9;;
 }
 
 #locations-wrap {
