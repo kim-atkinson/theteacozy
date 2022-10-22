@@ -1,3 +1,3 @@
 # The Tea Cozy
 
-Codecademy flexbox practice.
+Design provided by Codecademy. Built a one-page website to practice flexbox.
